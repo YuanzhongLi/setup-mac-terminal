@@ -1,10 +1,12 @@
 ## 1.Xcodeをインストール
-```bash
+```
+# bash
 xcode-select --install
 ```
 
 ## 2. hombrew install
 参照: https://brew.sh/index_ja
+
 homebrewへのpathを追加
 ```
 # .bash_profile
