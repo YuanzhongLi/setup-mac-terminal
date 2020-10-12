@@ -26,8 +26,8 @@ brew install git
 # .bash_profile
 export TERM="xterm-color"
 
-source /usr/local/Cellar/git/2.20.1/etc/bash_completion.d/git-prompt.sh
-source /usr/local/Cellar/git/2.20.1/etc/bash_completion.d/git-completion.bash
+source /usr/local/etc/bash_completion.d/git-prompt.sh
+source /usr/local/etc/bash_completion.d/git-completion.bash
 
 GIT_PS1_SHOWDIRTYSTATE=true
 export PS1='\[\e[0;33m\]\u\[\e[0m\] \[\e[0;32m\]\h\[\e[0m\] \[\e[0;34m\]\w\[\e[0m\] $(__git_ps1 "\[\033[31m\]%s\[\033[0m\]")\n\[\033[35m\]\$\[\033[0m\] '
